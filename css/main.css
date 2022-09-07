@@ -42,3 +42,79 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+body {
+  color: black;
+  font-family: "Roboto";
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  padding: 20px 0 55px 7px;
+}
+
+.menu,
+p {
+  padding-right: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 30px;
+  padding: 0 0 7px 7px;
+}
+
+h2 {
+  font-size: 16px;
+  padding: 0 0 40px 7px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.description {
+  font-size: 12px;
+  padding: 0 0 32px 8px;
+  line-height: 14px;
+}
+
+.description p {
+  padding-bottom: 10px;
+}
+
+.text-main {
+  font-size: 16px;
+  padding: 54px 50px 56px 7px;
+}
+
+.back {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  padding: 28px 150px 16px 151px;
+}
+
+footer {
+  font-size: 10px;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  margin: 7px;
+}
+
+.title-footer {
+  font-size: 12px;
+  padding: 30px 290px 15px 0;
+}
+
+.text-footer {
+  padding: 0 296px 38px 0;
+}
